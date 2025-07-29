@@ -142,21 +142,6 @@ cc-switch.bat --help
 }
 ```
 
-**注意**: 
-- 渠道直接使用ID作为显示名称，无需额外的name和description字段
-- 当前使用的渠道通过读取Claude Code的实际配置文件自动识别
-- 脚本会将Claude Code当前配置与各渠道配置进行匹配来确定当前渠道
-
-### 预置渠道
-
-工具预置了以下渠道配置：
-
-1. **302ai** - 302.AI API服务
-2. **official** - Anthropic官方Claude API
-3. **openrouter** - OpenRouter API服务
-4. **zhipu** - 智谱AI API服务
-5. **moonshot** - 月之暗面API服务
-6. **custom** - 自定义API服务配置
 
 ### 添加新渠道
 
