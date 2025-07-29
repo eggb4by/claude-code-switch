@@ -1,0 +1,55 @@
+{
+  "channels": {
+    "302ai": {
+      "config": {
+        "env": {
+          "ANTHROPIC_BASE_URL": "https://api.302.ai",
+          "ANTHROPIC_AUTH_TOKEN": "your-302ai-token-here",
+          "ANTHROPIC_MODEL": "kimi-k2-0711-preview"
+        }
+      }
+    },
+    "official": {
+      "config": {
+        "env": {
+          "ANTHROPIC_AUTH_TOKEN": "your-anthropic-token-here",
+          "ANTHROPIC_MODEL": "claude-3-5-sonnet-20241022"
+        }
+      }
+    },
+    "openrouter": {
+      "config": {
+        "env": {
+          "ANTHROPIC_BASE_URL": "https://openrouter.ai/api/v1",
+          "ANTHROPIC_AUTH_TOKEN": "your-openrouter-token-here",
+          "ANTHROPIC_MODEL": "anthropic/claude-3.5-sonnet"
+        }
+      }
+    },
+    "zhipu": {
+      "config": {
+        "env": {
+          "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic",
+          "ANTHROPIC_AUTH_TOKEN": "your-zhipu-token-here"
+        }
+      }
+    },
+    "moonshot": {
+      "config": {
+        "env": {
+          "ANTHROPIC_BASE_URL": "https://api.moonshot.cn/anthropic",
+          "ANTHROPIC_AUTH_TOKEN": "your-moonshot-token-here"
+        }
+      }
+    },
+    "custom": {
+      "config": {
+        "env": {
+          "ANTHROPIC_BASE_URL": "https://your-custom-api.com",
+          "ANTHROPIC_AUTH_TOKEN": "your-custom-token-here",
+          "ANTHROPIC_MODEL": "your-model-name"
+        }
+      }
+    }
+  }
+} 
